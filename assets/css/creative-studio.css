@@ -11132,8 +11132,9 @@ p {
 
 .img-wrapper img {
   position: relative;
-  width: 100%;
   z-index: 8;
+  width: 50%;
+  height: 50%
 }
 
 .img-wrapper .overlay {
