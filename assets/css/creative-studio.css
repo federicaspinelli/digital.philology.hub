@@ -11133,7 +11133,7 @@ p {
 .img-wrapper img {
   position: relative;
   z-index: 8;
-  width: 50%;
+  width: 50% !important;
   height: 50%
 }
 
