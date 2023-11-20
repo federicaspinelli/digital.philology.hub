@@ -29,7 +29,7 @@
                         <a class="nav-link" href="#about">Progetti</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog">Community Pilots</a>
+                        <a class="nav-link" href="#communitypilots">Community Pilots</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -125,7 +125,7 @@
     </section>-->
     <!-- End Of About Sectoin -->
 
-    <!-- Service Section -->
+    <!-- WPs Inter-relation overview -->
     <section id="service">
         <div class="container">
             <h6 class="section-subtitle text-center">H2IOSC</h6>
@@ -133,85 +133,171 @@
             <img src="assets/imgs/wp.png"></img>
             <div class="row">
                 <div class="col-sm-4 col-md-3">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h2 class="mb-4"><i class="ti-filter text-primary"></i></h2>
-                            <h2 class="mb-4">WP2</h2>
-                            <h6 class="card-title">Resources Assessment</h6>
-                            <p>Prioritize the acquisition of manuscripts, documents and collections, with related metadata and descriptions.</p>
+                    <div class="accordion" id="accordionWP">                  
+                        <div class="card mb-4">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-4">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <h2>WP1</h2>
+                                        Project and Financial Management, Quality Assurance
+                                        <i class="ti-angle-down"></i>
+                                    </button>                                  
+                                </h2>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionWP">
+                                <div class="card mb-4 card-body">
+                                    ...
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h2 class="mb-4">WP3</h2>
-                            <h6 class="card-title">Resources Alignment</h6>
-                            <p>Aligning standards to document primary data and sources, alignment of reference resources, definition of standardised protocols, and procedures; elaboration of common policies and implementation strategies.</p>
+                    <div class="accordion" id="accordionWP">
+                        <div class="card mb-4">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-4">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <h2>WP2</h2>
+                                        Resources Assessment
+                                        <i class="ti-angle-down"></i>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionWP">
+                                <div class="card mb-4 card-body">
+                                    Prioritize the acquisition of manuscripts, documents and collections, with related metadata and descriptions.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h2 class="mb-4">WP4</h2>
-                            <h6 class="card-title">Resources Interoperability</h6>
-                            <p>Build a network of DC to support the ICT activities of the network of RIs. Develop common approach for the management of different resources.</p>
+                    <div class="accordion" id="accordionWP">
+                        <div class="card mb-4">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-4">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <h2>WP3</h2>
+                                        Resources Alignment
+                                        <i class="ti-angle-down"></i>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionWP">
+                                <div class="card mb-4 card-body">
+                                    Aligning standards to document primary data and sources, alignment of reference resources, definition of standardized protocols, and procedures; elaboration of common policies and implementation strategies.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h2 class="mb-4">WP5</h2>
-                            <h6 class="card-title">MarketPlace</h6>
-                            <p>Access the resources with a high TRL from the National Marketplace or from the EOSC.</p>
+                    <div class="accordion" id="accordionWP">
+                        <div class="card mb-4">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-4">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <h2>WP4</h2>
+                                        Resources Interoperability
+                                        <i class="ti-angle-down"></i>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionWP">
+                                <div class="card mb-4 card-body">
+                                    Build a network of DC to support the ICT activities of the network of RIs. Develop a common approach for the management of different resources.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h2 class="mb-4">WP6</h2>
-                            <h6 class="card-title">Services</h6>
-                            <p>Use the resources as services.</p>
+                    <div class="accordion" id="accordionWP">
+                        <div class="card mb-4">
+                            <div class="card-header" id="headingFive">
+                                <h2 class="mb-4">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <h2>WP5</h2>
+                                        MarketPlace
+                                        <i class="ti-angle-down"></i>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionWP">
+                                <div class="card mb-4 card-body">
+                                    Access the resources with a high TRL from the National Marketplace or from the EOSC.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h2 class="mb-4">WP7</h2>
-                            <h6 class="card-title">Innovative VREs</h6>
-                            <p>Combine the resources in custom environments, workflows and share the results.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--div class="col-sm-4 col-md-3">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h2 class="mb-4"><i class="ti-stats-up text-primary"></i></h2>
-                            <h6 class="card-title">Repellendus maxime</h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
+                    <div class="accordion" id="accordionWP">
+                        <div class="card mb-4">
+                            <div class="card-header" id="headingSix">
+                                <h2 class="mb-4">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <h2>WP6</h2>
+                                        Services
+                                        <i class="ti-angle-down"></i>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionWP">
+                                <div class="card mb-4 card-body">
+                                    Use the resources as services.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-3">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h2 class="mb-4"><i class="ti-location-arrow text-primary"></i></h2>
-                            <h6 class="card-title">Sint vitae</h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis amet saepe et!</p>
+                    <div class="accordion" id="accordionWP">
+                        <div class="card mb-4">
+                            <div class="card-header" id="headingSeven">
+                                <h2 class="mb-4">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                        <h2>WP7</h2>
+                                        Community pilots
+                                        <i class="ti-angle-down"></i>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionWP">
+                                <div class="card mb-4 card-body">
+                                    Innovative cross-domain services ad environments. Combine the resources in custom environments, workflows and share the results.
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div-->
-            </div>  
-        </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="accordion" id="accordionWP">
+                        <div class="card mb-4">
+                            <div class="card-header" id="headingEight">
+                                <h2 class="mb-4">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                        <h2>WP8</h2>
+                                        Training, Capacity Building, Engagement
+                                        <i class="ti-angle-down"></i>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionWP">
+                                <div class="card mb-4 card-body">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
-    <!-- End of Service Section -->
+    <!-- End of WPs Inter-relation overview -->
 
-    <!-- Portfolio section -->
-    <section id="portfolio">
+    <!-- Shared Goals section -->
+    <section id="sharedgoals">
         <div class="container text-center">
             <h6 class="section-subtitle">H2IOSC</h6>
             <h6 class="section-title mb-5">Shared Goals</h6>
@@ -245,7 +331,7 @@
                             <div class="overlay-infos">
                                 <h5>Community Pilots</h5>
                                 <!--a href="javascript:void(0)"><i class="ti-zoom-in"></i></a-->
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="#communitypilots"><i class="ti-zoom-in"></i></a>
                             </div>  
                         </div>
                     </div>
@@ -282,16 +368,14 @@
             </div>
         </div>
     </section>
-    <!-- End of portfolio section -->
+    <!-- End of Shared Goals section -->
     
-    <!-- Service Section -->
-    <section id="service">
+    <!-- Community pilots Section -->
+    <section id="communitypilots">
         <div class="container text-center" id="background-box">
             <h6 class="section-title mb-6 text-center">Community pilots</h6>  
                      
             <div class="" id="bigger">
-               
-                <div class="ag-courses-item_bg"></div>
                 <div id="bigger" class="ag-courses-item_title">
                 </br>Edizione </br> Testo critico</br>
                 </div>
@@ -307,16 +391,16 @@
                 <!-- partial:index.partial.html -->
                 <div class="ag-format-container">
                 <div class="ag-courses_box">
-                    <div class="ag-courses_item">
+                    <div class="ag-courses_item ">
                         <a href="#" class="ag-courses-item_link">
                         <div class="ag-courses-item_bg"></div>
-                
-                        <div class="ag-courses-item_title">
-                            Commento
-                        </div>
-                
-                        <div class="ag-courses-item_date-box">
-                            Indici: database intertestuale, database fonti
+                        <div class="">
+                            <div class="ag-courses-item_title">
+                                Commento
+                            </div>
+                            <div class="ag-courses-item_date-box">
+                                Indici: database intertestuale, database fonti
+                            </div>
                         </div>
                         </a>
                     </div>
@@ -332,10 +416,7 @@
                             </span>
                         </div>
                         </a>
-                    </div>
-            
-                
-                
+                    </div>     
                     <div class="ag-courses_item">
                         <a href="#" class="ag-courses-item_link">
                         <div class="ag-courses-item_bg"></div>
@@ -446,6 +527,8 @@
             </div>
         </div>
     </section>
+    <!-- End of Community pilots section -->
+
     <!-- Team Section 
     <section id="team">
         <div class="container">
